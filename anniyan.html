@@ -1,0 +1,28 @@
+<form >
+<table border="1">
+<tr>
+   <td><h3>name</h3></td><td><h3>age</h3></td><td><h3>course</h3></td><td><h3>gender</h3></td><td><h3>emails</h3></td><td><h3>action</h3></td>
+</tr>
+<tr id="one">
+    <td>sss</td><td>sss</td><td>sss</td><td>sss</td><td>sss</td><td><button  id="q" onclick="ram(event)">delete</button></td>
+</tr>
+<tr>
+    <td>sss</td><td>sss</td><td>sss</td><td>sss</td><td>sss</td><td><button id="w">delete</button></td>
+</tr>
+
+
+
+
+
+</table></form>
+<script>
+var a=document.getElementById("q")
+var b=document.getElementById("w")
+var c=document.getElementById("one")
+function ram(event)
+{
+    a=c
+event.target.allparentElement.remove()
+}
+
+</script>

@@ -1,0 +1,58 @@
+<H1 >guess the number</H1>
+<input id="one">
+<button onclick="change()">click</button>
+<p id="two">u r win/wrong</p>
+<p id="three">score:10</p>
+<script>
+    var a=document.getElementById("one")
+    var b=document.getElementById("two")
+    var c=document.getElementById("three")
+   
+    score=10
+    function change(){
+var f=a.value
+var d=Math.floor(Math.random()*10)+1
+if(f==d){
+   
+    b.textContent="right"
+    alert("u won")
+}
+else{
+score=score-1
+c.textContent="u r score"+score
+b.textContent="wrong"
+
+
+}
+
+
+
+
+
+
+
+
+    }
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
